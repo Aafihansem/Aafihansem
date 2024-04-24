@@ -10,4 +10,4 @@ inside package Main
 Game.java
 GamePanel.java
 GameWindow.java
-MainCladd.java
+MainClass.java
