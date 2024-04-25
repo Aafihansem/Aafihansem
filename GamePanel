@@ -38,16 +38,20 @@ public class GamePanel extends JPanel {
 	}
 
 	
-
-	private void importImg() {
+private void importImg() {
 	
 		InputStream is = getClass().getResourceAsStream("/player_sprites.png");
 		
 		try {
 			img = ImageIO.read(is);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
+		}finally {
+			try {
+				is.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 		}
 		
 	}
