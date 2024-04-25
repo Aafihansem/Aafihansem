@@ -11,3 +11,7 @@ Game.java
 GamePanel.java
 GameWindow.java
 MainClass.java
+
+buat new then resource folder
+bgi nama res 
+
